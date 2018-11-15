@@ -4,7 +4,6 @@ import com.groupsupportserver.pugbot.commands.ChillUser;
 import com.groupsupportserver.pugbot.commands.ClearCommand;
 import com.groupsupportserver.pugbot.commands.KickCommand;
 import com.groupsupportserver.pugbot.commands.WarnCommand;
-import com.groupsupportserver.pugbot.core.Info;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
@@ -23,6 +22,7 @@ public class Bot {
         }
         //String token = args[0]; // 0 based indexing.
         try {
+
             String token = Info.TOKEN;
             JDA jda = new JDABuilder(AccountType.BOT).setToken(token) // Set the token.
                     .addEventListener(new Handler()) // Add an event listener.

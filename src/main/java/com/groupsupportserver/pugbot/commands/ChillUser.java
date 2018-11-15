@@ -1,7 +1,7 @@
 package com.groupsupportserver.pugbot.commands;
 
 import com.groupsupportserver.pugbot.core.Bools;
-import com.groupsupportserver.pugbot.core.Info;
+import com.groupsupportserver.pugbot.Info;
 import net.dv8tion.jda.core.EmbedBuilder;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.Role;

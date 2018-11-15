@@ -2,7 +2,6 @@ package com.groupsupportserver.pugbot;
 
 import com.groupsupportserver.pugbot.core.Bools;
 import com.groupsupportserver.pugbot.core.Embed;
-import com.groupsupportserver.pugbot.core.Info;
 import net.dv8tion.jda.core.Permission;
 import net.dv8tion.jda.core.entities.TextChannel;
 import net.dv8tion.jda.core.entities.VoiceChannel;
